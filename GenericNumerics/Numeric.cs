@@ -959,45 +959,74 @@ namespace GenericNumerics
         {
             return (UInt8T)(byte)n;
         }
-
         public static implicit operator Numeric(ushort n)
         {
             return (UInt16T)(ushort)n;
         }
-
         public static implicit operator Numeric(uint n)
         {
             return (UInt32T)n;
         }
-
         public static implicit operator Numeric(ulong n)
         {
             return (UInt64T)(ulong)n;
         }
-
         public static implicit operator Numeric(short n)
         {
             return (Int16T)(short)n;
         }
-
         public static implicit operator Numeric(int n)
         {
             return (Int32T)(int)n;
         }
-
         public static implicit operator Numeric(long n)
         {
             return (Int64T)(long)n;
         }
-
         public static implicit operator Numeric(float n)
         {
             return (SingleT)(float)n;
         }
-
         public static implicit operator Numeric(double n)
         {
             return (DoubleT)(double)n;
+        }
+
+        public static implicit operator byte(Numeric n)
+        {
+            return (byte)n.ObjectValue;
+        }
+        public static implicit operator ushort(Numeric n)
+        {
+            return (ushort)n.ObjectValue;
+        }
+        public static implicit operator uint(Numeric n)
+        {
+            return (uint)n.ObjectValue;
+        }
+        public static implicit operator ulong(Numeric n)
+        {
+            return (ulong)n.ObjectValue;
+        }
+        public static implicit operator short(Numeric n)
+        {
+            return (short)n.ObjectValue;
+        }
+        public static implicit operator int(Numeric n)
+        {
+            return (int)n.ObjectValue;
+        }
+        public static implicit operator long(Numeric n)
+        {
+            return (long)n.ObjectValue;
+        }
+        public static implicit operator float(Numeric n)
+        {
+            return (float)n.ObjectValue;
+        }
+        public static implicit operator double(Numeric n)
+        {
+            return (double)n.ObjectValue;
         }
 
         #endregion

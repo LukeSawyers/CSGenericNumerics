@@ -38,10 +38,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitConverter.cs" />
+    <Compile Include="Types\DoubleT.cs" />
     <Compile Include="Types\Int16T.cs" />
     <Compile Include="Types\Int32T.cs" />
     <Compile Include="Types\Int64T.cs" />
-    <Compile Include="INumeric.cs" />
+    <Compile Include="Numeric.cs" />
+    <Compile Include="Types\SingleT.cs" />
     <Compile Include="Types\UInt16T.cs" />
     <Compile Include="Types\UInt32T.cs" />
     <Compile Include="Types\UInt64T.cs" />

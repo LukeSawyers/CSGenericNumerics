@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GenericNumerics.Example")]
+[assembly: AssemblyTitle("GenericNumerics.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GenericNumerics.Example")]
+[assembly: AssemblyProduct("GenericNumerics.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4603af69-a78f-453f-9fac-de29a38ea454")]
+[assembly: Guid("5fe10c97-9641-4e87-bcd8-ae0d568fb622")]
 
 // Version information for an assembly consists of the following four values:
 //

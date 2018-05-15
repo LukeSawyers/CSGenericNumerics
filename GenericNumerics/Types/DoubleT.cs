@@ -84,6 +84,8 @@ namespace GenericNumerics
 
         #endregion
 
+#endregion
+
         #region Casts
 
         public static implicit operator DoubleT(UInt8T n)
@@ -165,6 +167,5 @@ namespace GenericNumerics
 
         #endregion
 
-        #endregion
     }
 }

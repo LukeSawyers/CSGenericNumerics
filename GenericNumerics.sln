@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2043
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericNumerics", "GenericNumerics\GenericNumerics.csproj", "{FD3FCAA4-96B4-4F55-AAD5-68A7056E2F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericNumerics.Tests", "GenericNumerics.Tests\GenericNumerics.Tests.csproj", "{5FE10C97-9641-4E87-BCD8-AE0D568FB622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericNumerics.Examples", "GenericNumerics.Examples\GenericNumerics.Examples.csproj", "{05E715DF-00FD-43A7-85BB-141F75C12040}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FD3FCAA4-96B4-4F55-AAD5-68A7056E2F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD3FCAA4-96B4-4F55-AAD5-68A7056E2F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD3FCAA4-96B4-4F55-AAD5-68A7056E2F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE10C97-9641-4E87-BCD8-AE0D568FB622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE10C97-9641-4E87-BCD8-AE0D568FB622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE10C97-9641-4E87-BCD8-AE0D568FB622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE10C97-9641-4E87-BCD8-AE0D568FB622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E715DF-00FD-43A7-85BB-141F75C12040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E715DF-00FD-43A7-85BB-141F75C12040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E715DF-00FD-43A7-85BB-141F75C12040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E715DF-00FD-43A7-85BB-141F75C12040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
