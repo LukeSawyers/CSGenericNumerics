@@ -38,14 +38,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Int16T.cs" />
-    <Compile Include="Int32T.cs" />
-    <Compile Include="Int64T.cs" />
+    <Compile Include="Types\Int16T.cs" />
+    <Compile Include="Types\Int32T.cs" />
+    <Compile Include="Types\Int64T.cs" />
     <Compile Include="INumeric.cs" />
-    <Compile Include="UInt16T.cs" />
-    <Compile Include="UInt32T.cs" />
-    <Compile Include="UInt64T.cs" />
-    <Compile Include="UInt8T.cs" />
+    <Compile Include="Types\UInt16T.cs" />
+    <Compile Include="Types\UInt32T.cs" />
+    <Compile Include="Types\UInt64T.cs" />
+    <Compile Include="Types\UInt8T.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

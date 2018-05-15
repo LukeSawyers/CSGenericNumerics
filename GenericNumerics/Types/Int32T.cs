@@ -7,6 +7,6 @@ namespace GenericNumerics
 {
     public class Int32T : INumeric<int>
     {
-        int _value;
+
     }
 }
